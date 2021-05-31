@@ -10,7 +10,7 @@ execute_ssh(){
 }
 
 if ! [ -z "$INPUT_TAG_ENV" ]; then
-  export TAG_ENV=INPUT_TAG_ENV
+  export TAG=INPUT_TAG_ENV
 fi
 
 if [ -z "$INPUT_REMOTE_DOCKER_PORT" ]; then
